@@ -1,3 +1,173 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.71429;
+}
+.interno-1{
+    background-color: transparent;
+    width: 100%;
+    height: 17%;
+    position: fixed;
+    text-align: center;
+    z-index: 10;
+}
+.lift-1{
+	width: 5%;
+	display: inline-block;
+}
+#navegador-1{
+	display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+#navegador-1 ul{
+	text-decoration: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+#navegador-1 ul li{
+	float: left;
+    display: inline-block;
+    margin-left: 12%; 
+}
+.interno-2,.interno-4{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.img-1{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	border-color: 1px solid yellow;	
+}
+.phone{
+	position: absolute;
+	left: 55%;
+	bottom: 10%;
+	background-color: #fff;
+	border: 1px solid red;
+	width: 45%; 
+}
+.interno-3{
+	margin: 0;
+	background: linear-gradient(#76278F, #2B1E66);
+	overflow: hidden;
+}
+.row{
+	padding: 10%;
+	width: 90%;
+}
+.imagen-2{
+	width: 100%;
+}
+.interno-3 ul{
+	text-decoration: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+.interno-3 ul li{
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 12%; 
+}
+.interno-5{
+	background-color: #333447;
+}
+.cuarta-parte a img{
+	width: 50%;
+}
+.row ul{
+	text-decoration: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+.row ul li{
+	color:#fff;
+    display: block;
+    margin-left: 12%; 
+}
+.col li a{
+	color:#fff;
+}
+.col li a:hover{
+	color:#FF00BF;
+}
+.interno-4{
+	width: 100%;
+}
+.interno-4 .row{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.parrafo-1{
+	outline: 1px solid red;
+	width: 40%;
+}
+.parrafo-1 p{
+	text-align: justify;
+}
+.video-1{
+	width: 100%;
+	outline: 1px solid yellow;
+}
+.parrafo-2{
+	outline: 1px solid red;
+	width: 40%;
+}
+.parrafo-2 p{
+	text-align: justify;
+}
+.video-2{
+	width: 100%;
+	outline: 1px solid yellow;
+}
+.parrafo-3{
+	outline: 1px solid red;
+	width: 40%;
+}
+.parrafo-3 p{
+	text-align: justify;
+}
+.video-3{
+	width: 100%;
+	outline: 1px solid yellow;
+}
+.interno-6{
+	background-color: #333447;
+	text-align: center;
+	color: #FFF;
+}
+.interno-6 div{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+.interno-6 div hr{
+	background-color: #fff;
+}
+.circulo {
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 2%;
+    text-align: center;
+}
+.circulo i{
+	display: inline-block;
+	margin-top: 30%;
+	color: #FFF;
+}
+.interno-6 p a{
+	color: #fff;
+}
