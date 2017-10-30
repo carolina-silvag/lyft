@@ -1,5 +1,17 @@
 # Lyft
 
+pasos a seguir:
+
+dividir el html en partes, desdes la cabeza a los pies. utilizar header, section y footer para guiarme desde un comienzo.
+
+En header utilizar nav para el navegador y dejarlo con una position:fixed.
+Colorcar el gif de fondo, y con position absolute el formulario(form) en esta section.
+utilizar columnas para videos (utilizar bootstrap para hacer columnas aprendido por investigación), aprender iframe para esta section.
+tambien utilizar columnas y lista para esta section y muchos efectos hover o uno que tome encuenta a varios.
+por ultimo el footer para los iconos de face y otros.
+
+
+
 * **Track:** _Common Core_
 * **Curso:** _Creando tu primer sitio web interactivo_
 * **Unidad:** _Maquetado web con HTML & CSS_
