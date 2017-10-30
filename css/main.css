@@ -1,27 +1,58 @@
+/*utilice palabras en español entendibles para guiarme a mi misma, algunas en ingles pero no mucho
+debido a que me interesaba mas aprender algo nuevo que quize implementar*/
+
 body {
     margin: 0 auto;
-    font-size: 16px;
     line-height: 1.71429;
 }
+/*encabezado contenedor*/
 .interno-1{
     background-color: transparent;
     width: 100%;
-    height: 17%;
     position: fixed;
-    text-align: center;
     z-index: 10;
 }
+/*encabezado contenedor cuando baja scroll*/
+.nuevo-interno-1{
+	background-color: #fff;
+	border-bottom: 1px solid #728099;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+/*primera imagen*/
 .lift-1{
+	margin-left: 6%;
 	width: 5%;
+	max-width: 20%;
+	margin-bottom: 4%;
 	display: inline-block;
 }
+/*oculto segunda imagen de lift logo*/
+.lift-2{
+	display: none;
+}
+/*imagen lift que estaba oculta y aparece cuando baja scroll*/
+.logo-2{
+	margin-left: 6%;
+	width: 5%;
+	max-width: 20%;
+	display: inline-block;
+	margin-bottom: 3%;
+}
+/*desaparece lift-1 cuando baja scroll*/
+.logo-1{
+	display: none;
+}
+/*navegador de encabezado*/
 #navegador-1{
 	display: inline-block;
-    width: 30%;
+    width: 40%;
     text-align: center;
-    margin-left: 40%;
-    margin-top: 5%;
+    margin-left: 47%;
+    margin-top: 4%;
 }
+/*se modifica debido a que es una lista*/
 #navegador-1 ul{
 	text-decoration: none;
     margin: 0;
@@ -30,74 +61,210 @@ body {
 }
 #navegador-1 ul li{
 	float: left;
-    display: inline-block;
-    margin-left: 12%; 
+    display: inline-block; 
+    margin-left: 1%;
+    width: 15%;
 }
-.interno-2,.interno-4{
-    text-align: center;
-    width: 100%;
-    height: 100%;
+/*color de las palabras del navegador al principio*/
+.color{
+	color: #fff;
 }
+/*color cambia cuando se pasa por encima*/
+.color:hover{
+	text-decoration: none;
+    color: #ff00bf;
+}
+
+/*cambia color cuando baja el scroll*/
+.nuevo-color{
+	color: #728099;
+}
+/*boton de login del encabezado*/
+.login{
+	width: 100%;
+	border-radius: 10px;
+	display: inline-block;
+	border:1px solid #fff;
+	padding: 4%;
+	color: #fff;
+}
+/*al pasar por encima no cambia de color blanco*/
+.login:hover{
+	text-decoration: none;
+    color: #fff;
+}
+/*cuando el scroll se mueve hacia abajo cambia de color*/
+.nuevo-login{
+	width: 100%;
+	border-radius: 10px;
+	display: inline-block;
+	border:1px solid #728099;
+	padding: 4%;
+	color: #728099;
+}
+/*tambien cambia de color al pasar por encima y scroll hacia abajo*/
+.nuevo-login:hover{
+	text-decoration: none;
+    color: #ff00bf;
+}
+/*sign up se oculta hasta que baja el scroll*/
+.ocultar-sign{
+	display: none;
+}
+/*aparece cuando el scroll baja*/
+.reaparece-sign{
+	width: 100%;
+	border-radius: 10px;
+	display: inline-block;
+	border:1px solid #ff00bf;
+	padding: 4%;
+	color: #ff00bf;
+	margin-left: 15%;
+}
+/*aparece con un color distinto al pasar por encima*/
+.reaparece-sign:hover{
+	text-decoration: none;
+	color: #ff00bf;
+}
+/*al pasar por explore aparece un menu inferior, esta oculto hasta que es llamado*/
+.mas{
+	display: none;
+	text-align: center;
+	background-color: #fff;
+	width: 100%;
+	border-top: 1px solid #728099;
+	padding: 3%;
+}
+.mas a{
+	color:#728099;
+	margin-left: 2%;
+}
+.mas a:hover{
+	text-decoration: none;
+	color: #ff00bf;
+}
+/*desde aqui empieza interno-2 una section*/
+/*imagen de fondo gif*/
 .img-1{
 	width: 100%;
 	height: 100%;
 	position: relative;
 	border-color: 1px solid yellow;	
 }
-.phone{
+/*formulario de interno-2 o primera section*/
+.formulario{
 	position: absolute;
-	left: 55%;
-	bottom: 10%;
+	left: 60%;
+	bottom: 0.5%;
 	background-color: #fff;
-	border: 1px solid red;
-	width: 45%; 
+	width: 40%; 
+
 }
+/*titulo y parrafo modificado*/
+.formulario h1{
+	text-align: left;
+	color: #352384;
+	width: 50%;
+	margin-top: 10%;
+	margin-left: 8%;
+}
+.formulario p{
+	display: inline-block;
+	text-align: left;
+	color: #728099;
+	width: 100%;
+	margin-left: 8%;
+}
+.number-phone{
+	color: #728099;
+	margin-left: 8%;
+	width: 80%;
+}
+/*quita el borde al input*/
+.number-phone input{
+	border:none;
+	width: 100%;
+}
+/*quita el borde al ser seleccionado*/
+.number-phone input:focus{
+    outline: none; 
+}
+/*botom become de la section e interno-2*/
+.become{
+	display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 2%; 
+    background-color: #ff00bf; 
+    color: #fff;
+    margin-left: 8%;
+    font-size: 120%;
+}
+/*(sign up to ride) modificado*/
+.sign{
+	display: inline-block;  
+    color: #728099;
+    margin-left: 8%;
+    font-size: 120%;
+    text-decoration: underline; 
+}
+/*al pasar por encima cambia*/
+.become:hover{
+	text-decoration: none;
+	color: #fff;
+}
+/*al pasar por encima cambia*/
+.sign:hover{
+	color: #ff00bf;
+}
+.formulario a+p{
+	margin-top: 3%;
+	font-size: 70%;
+	margin-bottom: 0;
+}
+.formulario p+p{
+	font-size: 70%;
+	padding: 0;
+	margin-bottom: 10%;
+}
+/*parte del formulario y recuadro*/
+.check{
+	text-decoration: none;
+	color: #ff00bf;
+}
+.check:hover{
+	text-decoration: underline;
+	color: #ff00bf;
+}
+.learn{
+	text-decoration: none;
+	color: #ff00bf;
+}
+.learn:hover{
+	text-decoration: underline;
+	color: #ff00bf;
+}
+/*desde aqui empieza tercera parte con el fondo gradiente*/
 .interno-3{
 	margin: 0;
 	background: linear-gradient(#76278F, #2B1E66);
 	overflow: hidden;
 }
-.row{
-	padding: 10%;
-	width: 90%;
+/*tercera parte imagen y letras en columnas hechas con bootstrap*/
+.interno-3 .row{
+	padding: 5%;
+	width: 100%;
 }
 .imagen-2{
 	width: 100%;
 }
-.interno-3 ul{
-	text-decoration: none;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-}
+/*lista*/
 .interno-3 ul li{
     display: inline-block;
     color: #fff;
     margin-bottom: 12%; 
 }
-.interno-5{
-	background-color: #333447;
-}
-.cuarta-parte a img{
-	width: 50%;
-}
-.row ul{
-	text-decoration: none;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-}
-.row ul li{
-	color:#fff;
-    display: block;
-    margin-left: 12%; 
-}
-.col li a{
-	color:#fff;
-}
-.col li a:hover{
-	color:#FF00BF;
-}
+/*interno-4 o section para los videos*/
 .interno-4{
 	width: 100%;
 }
@@ -106,39 +273,51 @@ body {
 	padding: 0;
 	margin: 0;
 }
-.parrafo-1{
-	outline: 1px solid red;
-	width: 40%;
-}
-.parrafo-1 p{
+.parrafo p,{
 	text-align: justify;
 }
-.video-1{
+/*desde aqui empieza interno-5 otra section*/
+.interno-5{
+	background-color: #333447;
+}
+.interno-5 .row{
 	width: 100%;
-	outline: 1px solid yellow;
+	margin: 0;
+	padding-top: 10%;
+	padding-bottom: 5%;
 }
-.parrafo-2{
-	outline: 1px solid red;
-	width: 40%;
+/*tamaño imagen*/
+.cuarta a img{
+	width: 50%;
+	padding-bottom: 2%;
+	border:none;
 }
-.parrafo-2 p{
-	text-align: justify;
+/*modificasiones a la lista de interno-5 una section*/
+.parte li{
+	display: block;
+	color:#fff;
 }
-.video-2{
-	width: 100%;
-	outline: 1px solid yellow;
+.parte li a{
+	color:#fff;
+	display: inline-block;
+	padding-bottom: 2%;
 }
-.parrafo-3{
-	outline: 1px solid red;
-	width: 40%;
+.primera li a strong{
+	text-decoration-line: #ff00bf;
+	color: #fff;
 }
-.parrafo-3 p{
-	text-align: justify;
+.segunda li strong{
+	color: #728099;
 }
-.video-3{
-	width: 100%;
-	outline: 1px solid yellow;
+.tercera li strong{
+	color: #728099;
 }
+.parte li a:hover{
+	color:#ff00bf;
+}
+
+/*por ultimo pie de pagina footer*/
+/*fondo de footer*/
 .interno-6{
 	background-color: #333447;
 	text-align: center;
@@ -149,6 +328,7 @@ body {
 	width: 50%;
 	text-align: center;
 }
+/*linea divisoria que se necesitaba*/
 .interno-6 div hr{
 	background-color: #fff;
 }
@@ -163,11 +343,17 @@ body {
     margin: 2%;
     text-align: center;
 }
+/*circulos de los iconos*/
 .circulo i{
 	display: inline-block;
 	margin-top: 30%;
 	color: #FFF;
 }
+
 .interno-6 p a{
 	color: #fff;
+}
+/*cambiar color*/
+.pie-pagina a:hover{
+	color: #FF00BF;
 }

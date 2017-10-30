@@ -7,35 +7,50 @@
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="app.js"></script>
 </head>
 <body>
 	<header class="interno-1">
 		<img src="assets/images/logo-white.png" alt="" class="lift-1">
+		<img src="assets/images/logo-pink.png" alt="" class="lift-2">
 		<nav id="navegador-1">
 			<ul>
-				<li><a href="#">Drive</a></li>
-				<li><a href="#">Explore</a></li>
-				<li><a href="#">Help</a></li>
-				<li><a href="#" class="login">Log in</a></li>
+				<li><a href="#" class="color">Drive</a></li>
+				<li class="explore"><a href="#" class="color">Explore
+						<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						<!-- <i class="fa fa-chevron-up" aria-hidden="true"></i> esto es lo que debo ocupar-->
+						</a>
+				</li>
+				<li><a href="#" class="color">Help</a></li>
+				<li><a href="#" class="login">Log-in</a></li>
+				<li><a href="#" class="ocultar-sign">Sign up</a></li>
 			</ul>
 		</nav>
+		<div class="mas">
+			<a href="#">Partnerships</a>
+			<a href="#">Business</a>
+			<a href="#">Cities</a>
+			<a href="#">Airports</a>
+		</div>
+
 	</header>
 	<section class="interno-2">
-		<div class="fondo-1">
-		<img src="assets/images/hero.gif" alt="" class="img-1">
+		<div class="fondo-2">
+			<img src="assets/images/hero.gif" alt="" class="img-1">
 		</div>
-		<div class="phone">
+		<form class="formulario">
 			<h1>TURN MILES INTO MONEY</h1>
 			<p>SIGN UP TO DRIVE WITH LYFT.</p>
-			<input type="text" placeholder="Phone Number">
-			<hr>
-			<ul>
-				<li><a href="">Become a drive</a></li>
-				<li><a href="">sign up to ride</a></li>
-			</ul>
-			<p>Already applied? Check the status of your application here.</p>
-			<p>Earn money for inviting friends to drive. Learn more</p>
-		</div>
+			<div class="number-phone">
+				<input type="text" placeholder="Phone Number">
+				<hr>
+			</div>
+			<a href="#" class="become"><strong>Become a Drive</strong></a></li>
+		    <a href="#" class="sign">sign up to ride</a>
+			<p>Already applied? <a href="#" class="check">Check the status of your application here.</a></p>
+			<p>Earn money for inviting friends to drive. <a href="#" class="learn">Learn more</a></p>
+		</form>
 	    
 	</section>
 	<section class="interno-3">
@@ -62,74 +77,83 @@
 	</section>
 	<section class="interno-4">
 		<div class="row">
-			<div class="parrafo-1 col">
+			<div class="parrafo col-4">
 				<h6>WATCH</h6>
 				<h2>AMPLIFY YOUR RIDE</h2>
 				 <p>Lyft's new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
 			</div>
-			<div class="video-1 col">
-				<iframe width="640" height="360" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" gesture="media" allowfullscreen></iframe>
+			<div class="video-1 col-8">
+				<iframe width="900" height="500" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" gesture="media" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="row">
-			<div class="video-2 col">
-				<iframe width="640" height="360" src="https://www.youtube.com/embed/V7j8Aqxmbs8" frameborder="0" gesture="media" allowfullscreen></iframe>
+			<div class="video-2 col-8">
+				<iframe width="850" height="500" src="https://www.youtube.com/embed/V7j8Aqxmbs8" frameborder="0" gesture="media" allowfullscreen></iframe>
 			</div>
-			<div class="parrafo-2 col">
+			<div class="parrafo col-4">
 				<h6>WATCH</h6>
 				<h2>JUNE</h2>
 			 	<p>In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride-and sharing her life, too.</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="parrafo-3 col">
+			<div class="parrafo col-4">
 				<h6>WATCH</h6>
 				<h2>A GOOD THING GOING</h2>
 			 	<p>Launching on TV and online. "Ride on the Bright Side" shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
 			</div>
-			<div class="video-3 col">
-				<iframe width="640" height="360" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" gesture="media" allowfullscreen></iframe>
+			<div class="video-3 col-8">
+				<iframe width="900" height="500" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" gesture="media" allowfullscreen></iframe>
 			</div>
 		</div>
 	</section>
 	<section class="interno-5">
 	    <div class="row">
-			<ul class="primera-parte col">
-				<li><a href="#"><strong>DRIVE</strong></a></li>
-				<li><a href="#"><strong>RIDE</strong></a></li>
-				<li><a href="#"><strong>LOG IN</strong></a></li>
-				<li><a href="#">Help</a></li>
-				<li><a href="#">Cities</a></li>
-				<li><a href="#">Airports</a></li>
-				<li><a href="#">Fare Estimate</a></li>
-				<li><a href="#">Free Ride Credits</a></li>
-				<li><a href="#">Drive Bonus</a></li>
-				<li><a href="#">Gift Cards</a></li>
-			</ul>
-			<ul class="segunda-parte col">
-			 	<li><strong>PARTNER</strong></li>
-				<li><a href="#">Partnerships</a></li>
-				<li><a href="#">Business</a></li>
-				<li><a href="#">Developers</a></li>
-				<li><a href="#">Events</a></li>
-			</ul>
-			<ul class="tercera-parte col">
-				<li>LEARN</li>
-				<li><a href="#">Safety</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Press</a></li>
-				<li><a href="#">Careers</a></li>
-				<li><a href="#">Driver Requirements</a></li>
-				<li><a href="#">Driver Earnings</a></li>
-				<li><a href="#">Driving Jobs</a></li>
-				<li><a href="#">Round Up & Donate</a></li>
-			</ul>
-			<div class="cuarta-parte col">
-				<a href="#"><img src="assets/images/amazon-badge.svg" alt=""></a>
-				<a href="#"><img src="assets/images/apple-store.svg" alt=""></a>
-				<a href="#"><img src="assets/images/google-play.png" alt=""></a>
-				<a href="#"><img src="assets/images/microsoft.png" alt=""></a>
-				<a href="#"><img src="" alt=""></a>
+	    	<div class="col-md-2">
+				<ul class="primera parte">
+					<li><a href="#"><strong>DRIVE</strong></a></li>
+					<li><a href="#"><strong>RIDE</strong></a></li>
+					<li><a href="#"><strong>LOG IN</strong></a></li>
+					<li><a href="#">Help</a></li>
+					<li><a href="#">Cities</a></li>
+					<li><a href="#">Airports</a></li>
+					<li><a href="#">Fare Estimate</a></li>
+					<li><a href="#">Free Ride Credits</a></li>
+					<li><a href="#">Drive Bonus</a></li>
+					<li><a href="#">Gift Cards</a></li>
+				</ul>
+	    	</div>
+	    	<div class="col-md-2">
+				<ul class="segunda parte">
+				 	<li><strong>PARTNER</strong></li>
+					<li><a href="#">Partnerships</a></li>
+					<li><a href="#">Business</a></li>
+					<li><a href="#">Developers</a></li>
+					<li><a href="#">Events</a></li>
+				</ul>
+			</div>
+	    	<div class="col-md-2">
+				<ul class="tercera parte">
+					<li><strong>LEARN</strong></li>
+					<li><a href="#">Safety</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Press</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Driver Requirements</a></li>
+					<li><a href="#">Driver Earnings</a></li>
+					<li><a href="#">Driving Jobs</a></li>
+					<li><a href="#">Round Up & Donate</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				
+			</div>
+			<div class="cuarta parte col-md-3">
+				<a href="#"><img src="assets/images/amazon-badge.svg" alt="" class="img-fluid"></a>
+				<a href="#"><img src="assets/images/apple-store.svg" alt="" class="img-fluid"></a>
+				<a href="#"><img src="assets/images/google-play.png" alt="" class="img-fluid"></a>
+				<a href="#"><img src="assets/images/microsoft.png" alt="" class="img-fluid"></a>
+				<a href="#"><img src="assets/images/lift.png" alt=""></a>
 			</div>
 		</div>
 	</section>
@@ -146,7 +170,7 @@
 			</a>
 			<hr>
 		</div>
-		<p>&#169;2017 Lyft, Inc. <a href="#">Terms</a> <a href="#">Privacy</a></p>
+		<p class="pie-pagina">&#169;2017 Lyft, Inc. <a href="#">Terms</a> <a href="#">Privacy</a></p>
 	</footer>
 	
 </body>
