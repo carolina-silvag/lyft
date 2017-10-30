@@ -10,6 +10,8 @@ utilizar columnas para videos (utilizar bootstrap para hacer columnas aprendido 
 tambien utilizar columnas y lista para esta section y muchos efectos hover o uno que tome encuenta a varios.
 por ultimo el footer para los iconos de face y otros.
 
+como extra investigar algunos efectos.
+
 
 
 * **Track:** _Common Core_
